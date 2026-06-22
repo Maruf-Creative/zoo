@@ -23,7 +23,7 @@ unset($_SESSION['register_success']);
 
 <div class="auth-card">
     <div class="auth-logo">
-        <i class="fas fa-leaf text-success"></i> Zoo Admin
+        Zoo Admin
     </div>
     <p class="text-center text-muted mb-4">Silakan login untuk masuk ke sistem</p>
 
