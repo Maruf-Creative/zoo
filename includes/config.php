@@ -3,10 +3,10 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-$db_host = 'sql305.infinityfree.com';
-$db_user = 'if0_42244373';
-$db_pass = 'Gkampret12';
-$db_name = 'if0_42244373_db_kebun_binatang';
+$db_host = 'localhost';
+$db_user = 'root';
+$db_pass = '';
+$db_name = 'db_kebun_binatang';
 
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 
