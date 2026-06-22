@@ -3,9 +3,9 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-$db_host = 'localhost';
+$db_host = 'reseau.proxy.rlwy.net';
 $db_user = 'root';
-$db_pass = '';
+$db_pass = 'xtTNsewYEFcmNNLxrtUSaRhqaSceBuqG';
 $db_name = 'db_kebun_binatang';
 
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
