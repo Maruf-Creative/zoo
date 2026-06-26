@@ -28,14 +28,14 @@ $result = $conn->query($query);
 <div class="card">
     <div class="card-header d-flex justify-content-between align-items-center">
         <span><i class="fas fa-table me-1"></i> Daftar User</span>
-        <a href="tambah_user.php" class="btn btn-primary btn-sm">
+        <a href="tambah_user.php" class="btn btn-sm text-white" style="background-color: #4da23c; border-color: #4da23c;">
             <i class="fas fa-plus"></i> Tambah User
         </a>
     </div>
     <div class="card-body">
         <div class="table-responsive">
             <table class="table table-bordered table-striped table-hover datatable">
-                <thead class="table-dark">
+                <thead class="table-custom-header">
                     <tr>
                         <th width="5%" class="text-center">No</th>
                         <th width="30%">Nama Lengkap</th>

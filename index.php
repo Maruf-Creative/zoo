@@ -21,7 +21,7 @@ unset($_SESSION['register_success']);
 </head>
 <body class="auth-page">
 
-<div class="auth-card">
+<div class="auth-card" style="border-top: 4px solid #4da23c !important;">
     <div class="auth-logo">
         Zoo Admin
     </div>
@@ -54,7 +54,7 @@ unset($_SESSION['register_success']);
                 <input type="password" class="form-control" name="password" required>
             </div>
         </div>
-        <button type="submit" class="btn btn-primary w-100 mb-3">
+        <button type="submit" class="btn text-white w-100 mb-3" style="background-color: #4da23c; border-color: #4da23c;">
             <i class="fas fa-sign-in-alt"></i> Login
         </button>
     </form>

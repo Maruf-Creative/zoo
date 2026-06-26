@@ -12,14 +12,15 @@ $result = $conn->query($query);
 <div class="card">
     <div class="card-header d-flex justify-content-between align-items-center">
         <span><i class="fas fa-table me-1"></i> Daftar Inventaris Hewan</span>
-        <a href="tambah_hewan.php" class="btn btn-primary btn-sm">
-            <i class="fas fa-plus"></i> Tambah Data
-        </a>
+        <a href="tambah_hewan.php" class="btn btn-sm text-white" style="background-color: #4da23c;; border-color: #4da23c;;">
+    <i class="fas fa-plus"></i> Tambah Data
+</a>
+
     </div>
     <div class="card-body">
         <div class="table-responsive">
             <table class="table table-bordered table-striped table-hover datatable">
-                <thead class="table-dark">
+                <thead class="table-custom-header">
                     <tr>
                         <th width="5%" class="text-center">No</th>
                         <th width="10%" class="text-center">Gambar</th>

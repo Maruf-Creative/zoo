@@ -23,7 +23,7 @@ $latest_hewan = $conn->query($query_latest);
 
 <div class="row mb-4">
     <div class="col-md-4">
-        <div class="card text-white bg-primary mb-3">
+        <div class="card text-white" style="background-color: #13492f;">
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center">
                     <div>
@@ -41,7 +41,7 @@ $latest_hewan = $conn->query($query_latest);
     </div>
     
     <div class="col-md-4">
-        <div class="card text-white bg-success mb-3">
+        <div class="card text-white" style="background-color: #2b7c4a;">
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center">
                     <div>
@@ -58,7 +58,7 @@ $latest_hewan = $conn->query($query_latest);
     </div>
     
     <div class="col-md-4">
-        <div class="card text-white bg-info mb-3">
+        <div class="card text-white" style="background-color: #62b368;">
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center">
                     <div>
